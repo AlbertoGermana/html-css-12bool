@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+[class*="col-"] {
+  background: pink;
+  border: 1px solid black;
+  height: 180px;
+  text-align: center;
+  line-height: 11;
+}
+.crimson{
+  background-color: crimson;
+}
