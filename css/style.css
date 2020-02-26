@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: white;
 }
 .row::after {
   content: "";
@@ -9,11 +10,11 @@
   clear: both;
 }
 [class*="col-"] {
-  background: pink;
-  border: 1px solid black;
+  background: black;
   height: 180px;
   text-align: center;
   line-height: 11;
+  border: white 1px solid;
 }
 .crimson{
   background-color: crimson;
@@ -31,4 +32,9 @@ a{
 }
 #row-img.row>.col-1{
   height: 400px;
+}
+#wallpaper{
+  background-image: url("https://i.pinimg.com/originals/bf/ae/3f/bfae3fa83ae7efd6b7b56c3df0fac9bf.jpg");
+  background-position: center;
+  background-size: cover;
 }
