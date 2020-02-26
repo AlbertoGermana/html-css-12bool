@@ -18,3 +18,17 @@
 .crimson{
   background-color: crimson;
 }
+a{
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px;
+}
+#row-img.row>.col-10{
+  background-color: violet;
+  height: 400px;
+}
+#row-img.row>.col-1{
+  height: 400px;
+}
