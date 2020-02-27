@@ -12,8 +12,9 @@
 [class*="col-"] {
   background: black;
   height: 180px;
+  width: 180px;
   text-align: center;
-  line-height: 11;
+  line-height: 4;
   border: white 1px solid;
 }
 .crimson{
@@ -37,4 +38,35 @@ a{
   background-image: url("https://i.pinimg.com/originals/bf/ae/3f/bfae3fa83ae7efd6b7b56c3df0fac9bf.jpg");
   background-position: center;
   background-size: cover;
+}
+.tessera{
+  color: darkgoldenrod;
+  font-size: 50px;
+  border: black solid 1px;
+  border-radius: 15px;
+}
+h1{
+  color: darkgoldenrod;
+  font-size: 60px;
+  text-align: center;
+}
+.white{
+  background-color: white;
+  }
+.red{
+  background-color: red;
+}
+.black{
+  background-color: black;
+}
+.container-tessere{
+  height: 750px;
+  width: 750px;
+  border-radius: 15px;
+}
+.row-tessere{
+  margin-left: 15px;
+}
+.row-tessera-top{
+  padding-top: 15px
 }
